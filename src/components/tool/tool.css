@@ -1,6 +1,9 @@
-
+.tools{
+  margin-top: 2rem;
+}
 .tools-desc{
     text-align: justify;
+    font-size: 14px;
   }
   .tools img{
   height: 150px;
@@ -14,7 +17,7 @@
   }
   
   .segments h2{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 1.5rem;
   }
   
@@ -26,12 +29,10 @@
   @media (min-width:587px){
     .segments h2{
       font-size: 19px;
-      margin-top: 2rem;
+      /* margin-top: 2rem; */
     }
     .segments p{
       font-size: 14px;
-      margin-top: .5rem;
-      margin-bottom: 2.5rem;
     }
     .tools-names{
       font-size: 14px;
@@ -41,23 +42,21 @@
 
   @media (min-width:768px){
     .segments h2{
-      font-size: 21px;
+      font-size: 17px;
     }
     .segments p{
-      font-size: 15.5px;
+      font-size: 13px;
     }
     .tools-desc{
-      font-size: 18px;
+      font-size: 14px;
     }
   }
 
   @media (min-width:1024px){
     .tools-desc{
       padding:0 1rem;
-      font-size: 17px;
-    }
-    .tools-desc{
-      font-size: 16px;
+      font-size: 13px;
+      font-weight: 500;
     }
     .tools img{
       object-fit: cover;

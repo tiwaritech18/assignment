@@ -2,10 +2,14 @@
   .main-img{
     height: 300px;
   }
+
+  .heading h2{
+    font-size: 18px;
+  }
   
   ul li{
     margin: 1rem;
-    font-size: 15px;
+    font-size: 14px;
     text-align: justify;
   }
   .img-section img{
@@ -23,7 +27,7 @@
   @media (min-width:587px){
     .img-section p{
         margin-bottom:2rem;
-        font-size: 13px;
+        font-size: 12px;
       } 
   }
 
@@ -33,10 +37,10 @@
     }
     .main h2{
       text-align: left;
-      font-size: 21px;
+      font-size: 18px;
     }
     ul li{
-      font-size: 16px;
+      font-size: 15px;
     }
     .img-section img{
       height: 350px;
@@ -44,7 +48,7 @@
     .img-section p{
       width: 80%;
       margin: 0 auto;
-      font-size: 14px;
+      font-size: 13px;
       margin-bottom: 2.5rem;  
     }
   }
@@ -53,11 +57,10 @@
     .main{
       margin-top: 2rem;
       display: flex;
-      height: 100vh;
     }
     .main-img{
       flex: 1;
-      height: 90%;
+      height: 500px;
       object-fit: contain;
     }
     .content{
@@ -65,12 +68,12 @@
     }
     .main h2{
       text-align: left;
-      font-size: 18px;
+      font-size: 15px;
       margin-bottom: .5rem;
     }
     ul li{
       width: 75%;
-      margin: 0 2rem;
+      margin: 0 2.5rem;
       font-size: 14px;
     }
     .img-section{
