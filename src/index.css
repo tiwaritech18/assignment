@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFFBD2;
+}
+
+@media (min-width:587px){
+  body{
+    max-width: 500px;
+  }
+}
+@media (min-width:768px){
+  body{
+    max-width: 700px;
+  }
+}
+@media (min-width:1024px){
+  body{
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+hr{
+  color: black;
+  border: 0.1cap solid;
+}

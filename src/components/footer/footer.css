@@ -1,0 +1,46 @@
+
+.footer{
+    height: fit-content;
+    background: #EC3237;
+    padding: 1rem 0;
+  }
+  
+  .contact{
+    margin: 1rem;
+  }
+  
+  .contact p{
+    font-size: 14px;
+    color: white;
+  }
+  .contact p:hover{
+    text-decoration: underline;
+    color: rgb(160, 160, 164);
+    cursor: pointer;
+  }
+  .contact svg{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+
+  @media (min-width:587px){
+    .contact svg{
+      font-size: 1.8rem;
+    }
+  }
+
+  @media (min-width:768px){
+    .footer{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media (min-width:1024px){
+    .footer{
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+  
